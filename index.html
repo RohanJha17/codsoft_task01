@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section id="home">
+      <header class="header">
+        <div class="logo">Portfolio...</div>
+        <nav class="navbar">
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="bx bx-x" style="color: #ff004f" onclick="closemenu()"></i>
+          </ul>
+          <i class="bx bx-menu" style="color: #ff004f" onclick="openmenu()"></i>
+        </nav>
+      </header>
+    </section>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h3>Hello! I'm</h3>
+          <h1>Rohan Jha,</h1>
+          <h3>A <span class="text"></span></h3>
+          <p>
+            I’m a passionate frontend developer skilled in creating interactive,
+            responsive, and visually appealing web experiences. Proficient in
+            HTML, CSS, and JavaScript, I thrive on turning ideas into engaging
+            digital solutions while continuously exploring new technologies.
+          </p>
+          <div class="hero-sci">
+            <a href="https://www.linkedin.com/in/rohanjha17" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/RohanJha17" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="mailto:jharohan139@gmail.com"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+            <a href="https://www.instagram.com/rj_rohan07/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+          <a href="image/Rohan_Resume.pdf" download class="btn-box"
+            >Download CV</a
+          >
+        </div>
+        <div class="hero-img">
+          <img src="image/MyPortfolio.png" alt="My_Image" />
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about">
+        <h2 class="sub-title">About<span>Me</span></h2>
+        <div class="about">
+          <div class="about-img">
+            <img src="image/MyPortfolio.png" alt="" />
+          </div>
+          <div class="about-txt">
+            <h4>Education!</h4>
+            <p>
+              I’m a second-year B.Tech student in Computer Science and
+              Engineering (AI & ML) at KIET Group of Institutions. With a
+              passion for frontend development, I enjoy building visually
+              appealing, responsive, and user-friendly websites. I completed my
+              10th and 12th under the CBSE board in Madhubani, where I developed
+              a strong academic foundation. Eager to learn and grow, I
+              continuously explore new technologies and strive to merge
+              creativity with technical expertise to create impactful digital
+              solutions.
+            </p>
+
+            <h4>Front-End Developer!</h4>
+            <p>
+              I’m a passionate frontend web developer with a keen eye for
+              creating user-friendly, interactive, and responsive designs. I
+              specialize in crafting seamless digital experiences using HTML,
+              CSS, and JavaScript. Alongside my frontend expertise, I’m an
+              enthusiastic learner exploring full-stack development to build
+              complete end-to-end solutions. I thrive on solving complex
+              problems, collaborating on innovative projects, and staying
+              updated with the latest technologies. My goal is to deliver
+              impactful solutions that bridge creativity and functionality for
+              an exceptional user experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service section -->
+      <section>
+        <div class="services" id="services">
+          <div class="container">
+            <h2 class="sub-title">My<span>Services</span></h2>
+            <div class="services-list">
+              <div>
+                <i class="bx bx-code" style="color: #ff004f"></i>
+                <h3>WEB-Developer</h3>
+                <p>
+                  Crafting responsive, user-friendly, and visually appealing
+                  websites tailored to client needs. Proficient in HTML, CSS,
+                  and JavaScript, delivering modern, interactive web solutions
+                  for businesses and individuals.
+                </p>
+                <a href="#" class="btn-box">learn more</a>
+              </div>
+              <div>
+                <i class="bx bx-crop" style="color: #ff004f"></i>
+                <h3>UI/UX Design</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  eos dolore laborum at exercitationem sapiente voluptas,
+                  accusamus vero doloremque, atque sint omnis corrupti quam
+                  quos?
+                </p>
+                <a href="#" class="btn-box">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2 class="sub-title">My<span>Skills</span></h2>
+        <div class="skills">
+          <div class="container1">
+            <h3 class="heading1">Technical Skills</h3>
+            <div class="technical-bars">
+              <div class="bar">
+                <i class="bx bxl-html5" style="color: #e34c26"></i>
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-css3" style="color: #264de4"></i>
+                <div class="info">
+                  <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-javascript" style="color: #f0db4f"></i>
+                <div class="info">
+                  <span>JavaScript</span>
+                </div>
+                <div class="progress-line js">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-react" style="color: #61dbfb"></i>
+                <div class="info">
+                  <span>React</span>
+                </div>
+                <div class="progress-line react">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-c-plus-plus" style="color: #044f88"></i>
+                <div class="info">
+                  <span>C++</span>
+                </div>
+                <div class="progress-line cpp">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-python" style="color: #c32ec9"></i>
+                <div class="info">
+                  <span>Python</span>
+                </div>
+                <div class="progress-line python">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bx-code" style="color: #044f88"></i>
+                <div class="info">
+                  <span>C</span>
+                </div>
+                <div class="progress-line c">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container1">
+            <h3 class="heading1">Professional Skills</h3>
+            <div class="radial-bars">
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="txt">Creativity</div>
+              </div>
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">70%</div>
+                <div class="txt">Communictaion</div>
+              </div>
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="txt">Problem Solving</div>
+              </div>
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle
+                    class="progress-bar"
+                    cx="100"
+                    cy="100"
+                    r="80"
+                  ></circle>
+                  <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="txt">TeamWork</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project section -->
+      <section id="projects">
+        <div class="projects">
+          <div class="container">
+            <h1 class="sub-title">My<span>Projects</span></h1>
+            <div class="project-list">
+              <div class="project">
+                <img src="image/Project_1.webp" alt="" />
+                <div class="layer">
+                  <h3>Realify</h3>
+                  <p>
+                    A dynamic e-commerce website offering seamless navigation,
+                    product exploration, and virtual try-on features, designed
+                    for an engaging and personalized online shopping experience.
+                    And it's a team project. <br />
+                    <a href="https://lnkd.in/eFAcWKhp" target="_blank"
+                      >Link of Website</a
+                    >
+                  </p>
+                  <a
+                    href="https://github.com/RohanJha17/realify.git"
+                    target="_blank"
+                    ><i class="bx bx-link-external"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="image/Project_2.webp" alt="" />
+                <div class="layer">
+                  <h3>Netflix Clone</h3>
+                  <p>
+                    A Netflix clone with a modern design, trending banners, and
+                    seamless navigation. Showcasing expertise in HTML, CSS, and
+                    responsive design, it mimics Netflix's user-friendly
+                    experience and diverse movie categories.
+                  </p>
+                  <a
+                    href="https://github.com/RohanJha17/NetFlixCloneProject.git"
+                    target="_blank"
+                    ><i class="bx bx-link-external"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="image/Project_3.webp" alt="" />
+                <div class="layer">
+                  <h3>Banking Management</h3>
+                  <p>
+                    The Banking Management System in C language enables secure
+                    account creation, updates, transactions, balance checks,
+                    deposits, withdrawals, and fund transfers, ensuring
+                    efficient banking operations.
+                  </p>
+                  <a
+                    href="https://github.com/RohanJha17/Banking-Management-C-Project.git"
+                    target="_blank"
+                    ><i class="bx bx-link-external"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="image/Project_4.webp" alt="" />
+                <div class="layer">
+                  <h3>Tic_Tac_Toe Game</h3>
+                  <p>
+                    The Tic-Tac-Toe game in C language allows two players to
+                    compete on a 3x3 grid, implementing turn-based gameplay with
+                    win, loss, and draw conditions.
+                  </p>
+                  <a
+                    href="https://github.com/RohanJha17/Banking-Management-C-Project.git"
+                    target="_blank"
+                    ><i class="bx bx-link-external"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <a href="#projects" class="btn-box btn">See More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact" id="contact">
+        <h2 class="sub-title">Contact<span>Me</span></h2>
+        <div class="contact-container">
+          <div class="contact-txt">
+            <h4>Let's Work Together</h4>
+            <p>
+              Let’s collaborate to bring your ideas to life! I specialize in
+              creating dynamic, responsive, and visually captivating websites
+              tailored to your needs. Whether it’s a personal project or a
+              business solution, I’m here to help. Feel free to reach out, and
+              let’s start building something amazing together!
+            </p>
+            <div class="contact-list">
+              <li><i class="bx bxs-send"></i> jharohan139@gmail.com</li>
+              <li><i class="bx bxs-phone"></i> +91-8287XXXXXX</li>
+            </div>
+            <div class="contact-icons">
+              <a
+                href="https://www.linkedin.com/in/rohanjha17"
+                target="_blank"
+                aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/RohanJha17" target="_blank"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://www.instagram.com/rj_rohan07/" target="_blank"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email"placeholder="Your Email"required />
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <input type="submit" value="submit" class="btn-box send" />
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="copyright">
+        <p>
+          Copyright ©-2024. Developed by
+          <span
+            >Rohan Jha.<i
+              class="bx bxs-heart bx-tada"
+              style="color: #ff004f"
+            ></i
+          ></span>
+        </p>
+      </div>
+      <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
